@@ -23,7 +23,7 @@ public class MyAdapter extends ArrayAdapter<String> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        LayoutInflater inflater = LayoutInflater.from(getContext());
+        LayoutInflater inflater = LayoutInflater.from(getContext()); 
 
         View theView = inflater.inflate(R.layout.row_layout1, parent, false);
 
